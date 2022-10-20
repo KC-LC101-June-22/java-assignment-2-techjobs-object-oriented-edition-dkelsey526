@@ -53,7 +53,7 @@ public class TestTaskFive extends AbstractTest {
         Method testToStringStartsAndEndsWithNewLineMethod = jobTestClass.getMethod("testToStringStartsAndEndsWithNewLine");
 
         new Expectations() {{
-            Assert.assertEquals('\n', '\n'); minTimes = 2;
+        Assert.assertEquals('\n',     '\n'); minTimes = 2;
         }};
 
         testToStringStartsAndEndsWithNewLineMethod.invoke(jobTest);
