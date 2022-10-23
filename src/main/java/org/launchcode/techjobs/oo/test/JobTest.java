@@ -55,10 +55,7 @@ public class JobTest {
         Job job = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
         assertTrue(job.toString() instanceof String);
         String stringInspect = job.toString();
-    //    System.out.println("||" + stringInspect + "||");
-   //     String[] arrayInspect = stringInspect.split("\n", -2);
-    //    assertEquals(arrayInspect[0], "");
-    //    assertEquals(arrayInspect[arrayInspect.length -1], "");
+
 
         assertEquals(stringInspect.charAt(0), '\n');
         assertEquals(stringInspect.charAt(stringInspect.length()-1), '\n');
