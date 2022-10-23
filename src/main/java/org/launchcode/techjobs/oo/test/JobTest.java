@@ -59,7 +59,7 @@ public class JobTest {
 
         assertEquals(stringInspect.charAt(0), '\n');
         assertEquals(stringInspect.charAt(stringInspect.length()-1), '\n');
- //       System.out.println(arrayInspect.length);
+
  //       for (String element : arrayInspect) {
  //           System.out.println("|" + element + "|");
 

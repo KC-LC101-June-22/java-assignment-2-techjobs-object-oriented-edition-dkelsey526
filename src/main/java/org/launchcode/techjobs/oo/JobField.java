@@ -45,7 +45,7 @@ public abstract class JobField {
 
 
     //  public void setHashCode(Job hashCode) {
-  //      this.hashCode = hashCode;
+  //     this.hashCode = hashCode;
  //   }
 
     //  6. Custom Methods
